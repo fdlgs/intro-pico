@@ -17,7 +17,7 @@ use embedded_hal::{
 mod pi_pico;
 
 /// La macro `#[entry]` s'assure que cette fontion soit exécutée dès que toutes 
-/// les variables globales sont initialiées.
+/// les variables globales sont initialisées.
 ///
 /// Cette fonction capture les ressources du Pi Pico en vue d'écrire un programme simple
 #[entry]
